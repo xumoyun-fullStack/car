@@ -32,14 +32,14 @@
     width:100%;
     left:30px;
     top:29px;
-    animation: rotate 2s linear infinite;
+    animation: rotate 0.2s linear infinite;
 }
 .balon_2{
     position:absolute;
     width:100%;
     top:30px;
     left:127px;
-    animation: rotate 2s linear infinite;
+    animation: rotate 0.2s linear infinite;
 }
 
 @keyframes trip{
