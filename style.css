@@ -14,17 +14,19 @@
     width:100%;
     height:200px;
     top:50%;
+    
     position: absolute;
     animation:trip 5s linear infinite;
 }
 .car_pic{
     width:200px;
     position: absolute;
-
+    left:-200px;
 }
 .balon{
     position: absolute;
     width:30px;
+    left:-200px;
     /* top:55%; */
 }
 .balon_1{
@@ -32,6 +34,7 @@
     width:100%;
     left:30px;
     top:29px;
+    
     animation: rotate 0.2s linear infinite;
 }
 .balon_2{
@@ -39,6 +42,7 @@
     width:100%;
     top:30px;
     left:127px;
+    
     animation: rotate 0.2s linear infinite;
 }
 
@@ -47,7 +51,7 @@
         transform: translate(0%);;
     }
     100%{
-        transform:translate(100%);
+        transform:translate(115%);
     }
 }
 
